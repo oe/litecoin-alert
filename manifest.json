@@ -1,0 +1,26 @@
+{
+  "name": "My coin",
+  "version": "0.3",
+  "manifest_version": 2,
+  "description": "Show coin alert(By Saiya)",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "homepage_url": "http://www.evecalm.com",
+  "browser_action": {
+    "default_icon": "img/icon48.png",
+    "default_title": "Hello,Saiya",
+    "default_popup": "popup/index.html"
+  },
+  "permissions": ["*://*/*","notifications","tabs","tts"],
+  "background": {
+    "page":"background/index.html"
+  },
+  "web_accessible_resources": [
+    "img/icon16.png",
+    "img/icon48.png",
+    "img/icon128.png"
+  ]
+}
